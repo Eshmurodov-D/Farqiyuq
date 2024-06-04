@@ -14,6 +14,9 @@
   text-decoration: none;
   color: rgb(144, 144, 144);
 }
+.header .header-list .header__list-item:hover {
+  color: rgb(61, 49, 108);
+}
 .header .header-p {
   font-size: 30px;
   font-weight: 550;
@@ -26,7 +29,28 @@
   color: aliceblue;
   border-radius: 5px;
 }
+.header .header-btn:hover {
+  transform: scale(1.1);
+}
 
+@media only screen and (max-width: 1160px) {
+  .header .header-list {
+    display: flex;
+    gap: 20%;
+  }
+  .header .header-list .header__list-item {
+    text-decoration: none;
+    color: rgb(144, 144, 144);
+  }
+  .header .header-p {
+    display: none;
+  }
+}
+@media only screen and (max-width: 660px) {
+  .header .header-p {
+    display: none;
+  }
+}
 * {
   margin: 0;
   padding: 0;

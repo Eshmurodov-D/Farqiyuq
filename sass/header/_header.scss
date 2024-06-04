@@ -11,7 +11,9 @@
         .header__list-item{
             text-decoration: none;
             color: $text-color;
-            
+        }
+        .header__list-item:hover{
+            color: $hover-text-color;
         }
     }
     .header-p{
@@ -25,5 +27,31 @@
         padding: 5px 50px;
         color: aliceblue;
         border-radius: 5px;
+    }
+    .header-btn:hover{
+        transform: scale(1.1);
+    }
+}
+@media only screen and (max-width: 1160px){
+    .header{
+        .header-list{
+            display: flex;
+            gap: 20%;
+            .header__list-item{
+                text-decoration: none;
+                color: $text-color;
+                
+            }
+        }
+        .header-p{
+            display: none;
+        }
+    }
+}
+@media only screen and (max-width: 660px){
+    .header{
+        .header-p{
+            display: none;
+        }
     }
 }
