@@ -1,0 +1,73 @@
+//nesting
+body {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.div {
+    max-width: 400px;
+    img {
+        width: 420px;
+        height: 300px;
+        padding: 35px 25px;
+        background-size: contain;
+    }
+}
+
+.div1 {
+    padding-left: 60%;
+    margin-top: -19%;
+   }
+   .p {
+    width: 400px;
+    margin-left: 60%;
+    color: rgb(136, 4, 252);
+}
+.div {
+    max-width: 400px;
+    .img1 {
+        width: 420px;
+        height: 300px;
+        padding: 35px 25px;
+        margin-top: 30%;
+        background-size: contain;
+    }
+}
+.div2 {
+    padding-left: 60%;
+    margin-top: -19%;
+   }
+   .p1 {
+    width: 400px;
+    margin-left: 60%;
+    color: rgb(136, 4, 252);
+}
+
+.div1 {
+    padding-left: 60%;
+    margin-top: -19%;
+   }
+   .p {
+    width: 400px;
+    margin-left: 60%;
+    color: rgb(136, 4, 252);
+}
+.div {
+    max-width: 400px;
+    .img2 {
+        width: 420px;
+        height: 300px;
+        padding: 35px 25px;
+        margin-top: 30%;
+        background-size: contain;
+    }
+}
+.div3 {
+    padding-left: 60%;
+    margin-top: -19%;
+   }
+   .p2 {
+    width: 400px;
+    margin-left: 60%;
+    color: rgb(136, 4, 252);
+}
