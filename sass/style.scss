@@ -7,7 +7,7 @@ body {
 .div {
     max-width: 400px;
     img {
-        width: 420px;
+        width: 380px;
         height: 300px;
         padding: 35px 25px;
         background-size: contain;
@@ -70,4 +70,13 @@ body {
     width: 400px;
     margin-left: 60%;
     color: rgb(136, 4, 252);
+   
+}
+.button {
+    width: 150px;
+    height: 32px;
+    background-color:hsla(229, 61%, 17%, 1);
+    margin-left: 60%;
+    margin-top: 2%;
+    color: aliceblue;
 }
